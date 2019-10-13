@@ -20,3 +20,41 @@
 .App-link {
   color: #09d3ac;
 }
+button {
+  background-color: #b5432a;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+}
+input {
+  position: relative;
+  margin: 0;
+  font-size: 24px;
+  font-family: inherit;
+  line-height: 1.4em;
+  border: 0;
+  outline: none;
+  color: inherit;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.todoListView {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.todoItem {
+  border: 1px solid lightgray;
+  width: 30%;
+  padding: 12px;
+}
